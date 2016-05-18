@@ -25,7 +25,7 @@
 #import "ICSDrawerController.h"
 #import "ICSDropShadowView.h"
 
-static const CGFloat kICSDrawerControllerDrawerDepth = 260.0f;
+static const CGFloat kICSDrawerControllerDrawerDepth = 300.0; // 抽屉的深度
 static const CGFloat kICSDrawerControllerLeftViewInitialOffset = -60.0f;
 static const NSTimeInterval kICSDrawerControllerAnimationDuration = 0.5;
 static const CGFloat kICSDrawerControllerOpeningAnimationSpringDamping = 1.0f;
@@ -108,7 +108,6 @@ typedef NS_ENUM(NSUInteger, ICSDrawerControllerState)
     [super viewDidLoad];
     
     self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    
     // Initialize left and center view containers
     self.leftView = [[UIView alloc] initWithFrame:self.view.bounds];
     self.centerView = [[ICSDropShadowView alloc] initWithFrame:self.view.bounds];    

@@ -22,6 +22,8 @@
   
     // 添加子控制器
     [self setupChildVcs];
+    
+    [UITabBar appearance].backgroundColor = [UIColor orangeColor];
 }
 
 
@@ -45,6 +47,18 @@
     vc.tabBarItem.image = [UIImage imageNamed:image];
     vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
     [self addChildViewController:nav];
+}
+
+
+#pragma mark - ICSDrawerControllerPresenting
+- (void)drawerControllerWillOpen:(ICSDrawerController *)drawerController
+{
+    self.view.userInteractionEnabled = NO;
+}
+
+- (void)drawerControllerDidClose:(ICSDrawerController *)drawerController
+{
+    self.view.userInteractionEnabled = YES;
 }
 
 @end

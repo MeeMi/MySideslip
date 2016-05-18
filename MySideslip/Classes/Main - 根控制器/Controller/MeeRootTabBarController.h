@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MeeRootTabBarController : UITabBarController
+#import "ICSDrawerController.h"
+
+@interface MeeRootTabBarController : UITabBarController <ICSDrawerControllerChild, ICSDrawerControllerPresenting>
+
+@property (nonatomic,weak) ICSDrawerController *drawer;
 
 @end

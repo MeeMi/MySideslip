@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10D06AFAE3E24230BB0D663C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D067C89E2E5F48BA83A04455 /* libPods.a */; };
 		9C5433C21CEBFB77004FBB46 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433BF1CEBFB77004FBB46 /* UIImage+GIF.m */; };
 		9C5433C31CEBFB77004FBB46 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433C11CEBFB77004FBB46 /* UIView+Frame.m */; };
 		9C5433CB1CEBFC21004FBB46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433C71CEBFC21004FBB46 /* AppDelegate.m */; };
@@ -17,11 +18,17 @@
 		9C5433E41CEBFEFA004FBB46 /* MeeRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433E31CEBFEFA004FBB46 /* MeeRootNavigationController.m */; };
 		9C5433EF1CEC0013004FBB46 /* MeeFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433EE1CEC0013004FBB46 /* MeeFriendsViewController.m */; };
 		9C5433F21CEC002D004FBB46 /* MeeMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433F11CEC002D004FBB46 /* MeeMessageViewController.m */; };
+		9C5433F61CEC10EF004FBB46 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433F51CEC10EF004FBB46 /* UIImage+Color.m */; };
+		9C5433F91CEC1A7A004FBB46 /* MeeSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433F81CEC1A7A004FBB46 /* MeeSideViewController.m */; };
+		9C5433FE1CEC4189004FBB46 /* ermilio.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9C5433FD1CEC4188004FBB46 /* ermilio.gif */; };
+		9C5434001CEC4448004FBB46 /* niconiconi@2x.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9C5433FF1CEC4448004FBB46 /* niconiconi@2x.gif */; };
 		9C55BAEF1CEB05AB004978E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C55BAEE1CEB05AB004978E7 /* Assets.xcassets */; };
 		9C55BAF21CEB05AB004978E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C55BAF01CEB05AB004978E7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		556AE4A7D203F8EC25380433 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8548C416FD53BC3D36C36E68 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9C5433BE1CEBFB77004FBB46 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
 		9C5433BF1CEBFB77004FBB46 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
 		9C5433C01CEBFB77004FBB46 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
@@ -42,10 +49,17 @@
 		9C5433F01CEC002D004FBB46 /* MeeMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeeMessageViewController.h; sourceTree = "<group>"; };
 		9C5433F11CEC002D004FBB46 /* MeeMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeeMessageViewController.m; sourceTree = "<group>"; };
 		9C5433F31CEC0278004FBB46 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9C5433F41CEC10EF004FBB46 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		9C5433F51CEC10EF004FBB46 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		9C5433F71CEC1A7A004FBB46 /* MeeSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeeSideViewController.h; sourceTree = "<group>"; };
+		9C5433F81CEC1A7A004FBB46 /* MeeSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeeSideViewController.m; sourceTree = "<group>"; };
+		9C5433FD1CEC4188004FBB46 /* ermilio.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ermilio.gif; path = Category/ermilio.gif; sourceTree = "<group>"; };
+		9C5433FF1CEC4448004FBB46 /* niconiconi@2x.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "niconiconi@2x.gif"; sourceTree = "<group>"; };
 		9C55BADF1CEB05AB004978E7 /* MySideslip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySideslip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C55BAEE1CEB05AB004978E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C55BAF11CEB05AB004978E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C55BAF31CEB05AB004978E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D067C89E2E5F48BA83A04455 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +67,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10D06AFAE3E24230BB0D663C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FB09B74102D48D45D80F110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				556AE4A7D203F8EC25380433 /* Pods.debug.xcconfig */,
+				8548C416FD53BC3D36C36E68 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9C5433BD1CEBFB69004FBB46 /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +90,8 @@
 				9C5433BF1CEBFB77004FBB46 /* UIImage+GIF.m */,
 				9C5433C01CEBFB77004FBB46 /* UIView+Frame.h */,
 				9C5433C11CEBFB77004FBB46 /* UIView+Frame.m */,
+				9C5433F41CEC10EF004FBB46 /* UIImage+Color.h */,
+				9C5433F51CEC10EF004FBB46 /* UIImage+Color.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -140,6 +166,8 @@
 		9C5433D31CEBFCE2004FBB46 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9C5433F71CEC1A7A004FBB46 /* MeeSideViewController.h */,
+				9C5433F81CEC1A7A004FBB46 /* MeeSideViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -257,6 +285,8 @@
 			children = (
 				9C55BAE11CEB05AB004978E7 /* MySideslip */,
 				9C55BAE01CEB05AB004978E7 /* Products */,
+				0FB09B74102D48D45D80F110 /* Pods */,
+				ED166B59E53BD18317D0844E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -283,11 +313,21 @@
 				9C5433D61CEBFD49004FBB46 /* OtherFrameworks */,
 				9C5433BD1CEBFB69004FBB46 /* Category */,
 				9C55BAEE1CEB05AB004978E7 /* Assets.xcassets */,
+				9C5433FD1CEC4188004FBB46 /* ermilio.gif */,
+				9C5433FF1CEC4448004FBB46 /* niconiconi@2x.gif */,
+				9C5433F31CEC0278004FBB46 /* PrefixHeader.pch */,
 				9C55BAF01CEB05AB004978E7 /* LaunchScreen.storyboard */,
 				9C55BAF31CEB05AB004978E7 /* Info.plist */,
-				9C5433F31CEC0278004FBB46 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED166B59E53BD18317D0844E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D067C89E2E5F48BA83A04455 /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,9 +337,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C55BAF61CEB05AB004978E7 /* Build configuration list for PBXNativeTarget "MySideslip" */;
 			buildPhases = (
+				2281271703E5BD0F28780577 /* Check Pods Manifest.lock */,
 				9C55BADB1CEB05AB004978E7 /* Sources */,
 				9C55BADC1CEB05AB004978E7 /* Frameworks */,
 				9C55BADD1CEB05AB004978E7 /* Resources */,
+				1FDD952267FF0F70F6A956BE /* Embed Pods Frameworks */,
+				FE5E9FAE29BD1F69B4B1994A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -348,12 +391,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5434001CEC4448004FBB46 /* niconiconi@2x.gif in Resources */,
 				9C55BAF21CEB05AB004978E7 /* LaunchScreen.storyboard in Resources */,
+				9C5433FE1CEC4189004FBB46 /* ermilio.gif in Resources */,
 				9C55BAEF1CEB05AB004978E7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FDD952267FF0F70F6A956BE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2281271703E5BD0F28780577 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5E9FAE29BD1F69B4B1994A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C55BADB1CEB05AB004978E7 /* Sources */ = {
@@ -361,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C5433F21CEC002D004FBB46 /* MeeMessageViewController.m in Sources */,
+				9C5433F91CEC1A7A004FBB46 /* MeeSideViewController.m in Sources */,
 				9C5433CB1CEBFC21004FBB46 /* AppDelegate.m in Sources */,
 				9C5433C21CEBFB77004FBB46 /* UIImage+GIF.m in Sources */,
 				9C5433DE1CEBFDCB004FBB46 /* ICSDropShadowView.m in Sources */,
@@ -368,6 +462,7 @@
 				9C5433C31CEBFB77004FBB46 /* UIView+Frame.m in Sources */,
 				9C5433DD1CEBFDCB004FBB46 /* ICSDrawerController.m in Sources */,
 				9C5433CC1CEBFC21004FBB46 /* main.m in Sources */,
+				9C5433F61CEC10EF004FBB46 /* UIImage+Color.m in Sources */,
 				9C5433E41CEBFEFA004FBB46 /* MeeRootNavigationController.m in Sources */,
 				9C5433EF1CEC0013004FBB46 /* MeeFriendsViewController.m in Sources */,
 			);
@@ -473,6 +568,7 @@
 		};
 		9C55BAF71CEB05AB004978E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 556AE4A7D203F8EC25380433 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = MySideslip/PrefixHeader.pch;
@@ -485,6 +581,7 @@
 		};
 		9C55BAF81CEB05AB004978E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8548C416FD53BC3D36C36E68 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = MySideslip/PrefixHeader.pch;

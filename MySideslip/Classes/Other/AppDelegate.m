@@ -8,9 +8,11 @@
 
 #import "AppDelegate.h"
 #import "MeeRootTabBarController.h"
-
+#import "MeeSideViewController.h"
 
 @interface AppDelegate ()
+
+
 
 @end
 
@@ -21,7 +23,13 @@
 
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     MeeRootTabBarController *tabVc = [[MeeRootTabBarController alloc]init];
-    self.window.rootViewController = tabVc;
+
+    
+    // 创建左边的控制器
+    MeeSideViewController *sideVc = [[MeeSideViewController alloc]init];
+    
+    self.drawer = [[ICSDrawerController alloc]initWithLeftViewController:sideVc centerViewController:tabVc];
+    self.window.rootViewController = self.drawer;
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -25,6 +25,11 @@
 
 
 #import "UIView+Frame.h"
+#import "UIImage+Color.h"
+#import "UIImage+GIF.h"
 
+
+#import "ICSDropShadowView.h"
+#import "ICSDrawerController.h"
 
 #endif
