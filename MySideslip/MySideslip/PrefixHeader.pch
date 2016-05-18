@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  MySideslip
+//
+//  Created by liwei on 16/5/18.
+//  Copyright © 2016年 liwei. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+
+// 设置颜色
+#define MeeColor(r,g,b) [UIColor colorWithRed:(r)/255.0  green:(g)/255.0  blue:(b)/255.0  alpha:1.0]
+#define MeeColorA(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)/255.0]
+// 设置随机颜色
+#define MeeRandomColor MeeColor(arc4random_uniform(256),arc4random_uniform(256),arc4random_uniform(256))
+// 设置灰色
+#define MeeGreyColor(v) MeeColor(v,v,v)
+// 设置背景颜色
+#define MeeBgColor MeeGreyColor(206)
+
+// 获取屏幕的宽高
+#define screenWidth [UIScreen mainScreen].bounds.size.width
+#define screenHeight [UIScreen mainScreen].bounds.size.height
+
+
+#import "UIView+Frame.h"
+
+
+#endif

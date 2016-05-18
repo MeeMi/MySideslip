@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C5433C21CEBFB77004FBB46 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433BF1CEBFB77004FBB46 /* UIImage+GIF.m */; };
+		9C5433C31CEBFB77004FBB46 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433C11CEBFB77004FBB46 /* UIView+Frame.m */; };
+		9C5433CB1CEBFC21004FBB46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433C71CEBFC21004FBB46 /* AppDelegate.m */; };
+		9C5433CC1CEBFC21004FBB46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433C81CEBFC21004FBB46 /* main.m */; };
+		9C5433DD1CEBFDCB004FBB46 /* ICSDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433DA1CEBFDCB004FBB46 /* ICSDrawerController.m */; };
+		9C5433DE1CEBFDCB004FBB46 /* ICSDropShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433DC1CEBFDCB004FBB46 /* ICSDropShadowView.m */; };
+		9C5433E11CEBFE73004FBB46 /* MeeRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433E01CEBFE73004FBB46 /* MeeRootTabBarController.m */; };
+		9C5433E41CEBFEFA004FBB46 /* MeeRootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433E31CEBFEFA004FBB46 /* MeeRootNavigationController.m */; };
+		9C5433EF1CEC0013004FBB46 /* MeeFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433EE1CEC0013004FBB46 /* MeeFriendsViewController.m */; };
+		9C5433F21CEC002D004FBB46 /* MeeMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5433F11CEC002D004FBB46 /* MeeMessageViewController.m */; };
+		9C55BAEF1CEB05AB004978E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C55BAEE1CEB05AB004978E7 /* Assets.xcassets */; };
+		9C55BAF21CEB05AB004978E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C55BAF01CEB05AB004978E7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9C5433BE1CEBFB77004FBB46 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		9C5433BF1CEBFB77004FBB46 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		9C5433C01CEBFB77004FBB46 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		9C5433C11CEBFB77004FBB46 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		9C5433C61CEBFC21004FBB46 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9C5433C71CEBFC21004FBB46 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9C5433C81CEBFC21004FBB46 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C5433D91CEBFDCB004FBB46 /* ICSDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDrawerController.h; sourceTree = "<group>"; };
+		9C5433DA1CEBFDCB004FBB46 /* ICSDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDrawerController.m; sourceTree = "<group>"; };
+		9C5433DB1CEBFDCB004FBB46 /* ICSDropShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSDropShadowView.h; sourceTree = "<group>"; };
+		9C5433DC1CEBFDCB004FBB46 /* ICSDropShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSDropShadowView.m; sourceTree = "<group>"; };
+		9C5433DF1CEBFE73004FBB46 /* MeeRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeeRootTabBarController.h; sourceTree = "<group>"; };
+		9C5433E01CEBFE73004FBB46 /* MeeRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeeRootTabBarController.m; sourceTree = "<group>"; };
+		9C5433E21CEBFEFA004FBB46 /* MeeRootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeeRootNavigationController.h; sourceTree = "<group>"; };
+		9C5433E31CEBFEFA004FBB46 /* MeeRootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeeRootNavigationController.m; sourceTree = "<group>"; };
+		9C5433ED1CEC0013004FBB46 /* MeeFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeeFriendsViewController.h; sourceTree = "<group>"; };
+		9C5433EE1CEC0013004FBB46 /* MeeFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeeFriendsViewController.m; sourceTree = "<group>"; };
+		9C5433F01CEC002D004FBB46 /* MeeMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeeMessageViewController.h; sourceTree = "<group>"; };
+		9C5433F11CEC002D004FBB46 /* MeeMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeeMessageViewController.m; sourceTree = "<group>"; };
+		9C5433F31CEC0278004FBB46 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9C55BADF1CEB05AB004978E7 /* MySideslip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySideslip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C55BAEE1CEB05AB004978E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C55BAF11CEB05AB004978E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C55BAF31CEB05AB004978E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C55BADC1CEB05AB004978E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C5433BD1CEBFB69004FBB46 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433BE1CEBFB77004FBB46 /* UIImage+GIF.h */,
+				9C5433BF1CEBFB77004FBB46 /* UIImage+GIF.m */,
+				9C5433C01CEBFB77004FBB46 /* UIView+Frame.h */,
+				9C5433C11CEBFB77004FBB46 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9C5433C41CEBFC21004FBB46 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433CE1CEBFC9C004FBB46 /* Main - 根控制器 */,
+				9C5433E51CEBFFD0004FBB46 /* Friends - 联系人 */,
+				9C5433E91CEBFFD0004FBB46 /* Message - 消息 */,
+				9C5433D21CEBFCE2004FBB46 /* Side - 侧边控制器 */,
+				9C5433C51CEBFC21004FBB46 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9C5433C51CEBFC21004FBB46 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433C61CEBFC21004FBB46 /* AppDelegate.h */,
+				9C5433C71CEBFC21004FBB46 /* AppDelegate.m */,
+				9C5433C81CEBFC21004FBB46 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9C5433CE1CEBFC9C004FBB46 /* Main - 根控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433CF1CEBFC9C004FBB46 /* Controller */,
+				9C5433D01CEBFC9C004FBB46 /* Model */,
+				9C5433D11CEBFC9C004FBB46 /* View */,
+			);
+			path = "Main - 根控制器";
+			sourceTree = "<group>";
+		};
+		9C5433CF1CEBFC9C004FBB46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433DF1CEBFE73004FBB46 /* MeeRootTabBarController.h */,
+				9C5433E01CEBFE73004FBB46 /* MeeRootTabBarController.m */,
+				9C5433E21CEBFEFA004FBB46 /* MeeRootNavigationController.h */,
+				9C5433E31CEBFEFA004FBB46 /* MeeRootNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C5433D01CEBFC9C004FBB46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C5433D11CEBFC9C004FBB46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C5433D21CEBFCE2004FBB46 /* Side - 侧边控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433D31CEBFCE2004FBB46 /* Controller */,
+				9C5433D41CEBFCE2004FBB46 /* Model */,
+				9C5433D51CEBFCE2004FBB46 /* View */,
+			);
+			path = "Side - 侧边控制器";
+			sourceTree = "<group>";
+		};
+		9C5433D31CEBFCE2004FBB46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C5433D41CEBFCE2004FBB46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C5433D51CEBFCE2004FBB46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C5433D61CEBFD49004FBB46 /* OtherFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433D71CEBFDCB004FBB46 /* slideBar */,
+			);
+			name = OtherFrameworks;
+			path = Classes/OtherFrameworks;
+			sourceTree = "<group>";
+		};
+		9C5433D71CEBFDCB004FBB46 /* slideBar */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433D81CEBFDCB004FBB46 /* ICSDrawerController */,
+			);
+			path = slideBar;
+			sourceTree = "<group>";
+		};
+		9C5433D81CEBFDCB004FBB46 /* ICSDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433D91CEBFDCB004FBB46 /* ICSDrawerController.h */,
+				9C5433DA1CEBFDCB004FBB46 /* ICSDrawerController.m */,
+				9C5433DB1CEBFDCB004FBB46 /* ICSDropShadowView.h */,
+				9C5433DC1CEBFDCB004FBB46 /* ICSDropShadowView.m */,
+			);
+			path = ICSDrawerController;
+			sourceTree = "<group>";
+		};
+		9C5433E51CEBFFD0004FBB46 /* Friends - 联系人 */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433E61CEBFFD0004FBB46 /* Controller */,
+				9C5433E71CEBFFD0004FBB46 /* Model */,
+				9C5433E81CEBFFD0004FBB46 /* View */,
+			);
+			path = "Friends - 联系人";
+			sourceTree = "<group>";
+		};
+		9C5433E61CEBFFD0004FBB46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433ED1CEC0013004FBB46 /* MeeFriendsViewController.h */,
+				9C5433EE1CEC0013004FBB46 /* MeeFriendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C5433E71CEBFFD0004FBB46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C5433E81CEBFFD0004FBB46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C5433E91CEBFFD0004FBB46 /* Message - 消息 */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433EA1CEBFFD0004FBB46 /* Controller */,
+				9C5433EB1CEBFFD0004FBB46 /* Model */,
+				9C5433EC1CEBFFD0004FBB46 /* View */,
+			);
+			path = "Message - 消息";
+			sourceTree = "<group>";
+		};
+		9C5433EA1CEBFFD0004FBB46 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433F01CEC002D004FBB46 /* MeeMessageViewController.h */,
+				9C5433F11CEC002D004FBB46 /* MeeMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9C5433EB1CEBFFD0004FBB46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C5433EC1CEBFFD0004FBB46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C55BAD61CEB05AB004978E7 = {
+			isa = PBXGroup;
+			children = (
+				9C55BAE11CEB05AB004978E7 /* MySideslip */,
+				9C55BAE01CEB05AB004978E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C55BAE01CEB05AB004978E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C55BADF1CEB05AB004978E7 /* MySideslip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C55BAE11CEB05AB004978E7 /* MySideslip */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433C41CEBFC21004FBB46 /* Classes */,
+				9C55BAE21CEB05AB004978E7 /* Supporting Files */,
+			);
+			path = MySideslip;
+			sourceTree = "<group>";
+		};
+		9C55BAE21CEB05AB004978E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C5433D61CEBFD49004FBB46 /* OtherFrameworks */,
+				9C5433BD1CEBFB69004FBB46 /* Category */,
+				9C55BAEE1CEB05AB004978E7 /* Assets.xcassets */,
+				9C55BAF01CEB05AB004978E7 /* LaunchScreen.storyboard */,
+				9C55BAF31CEB05AB004978E7 /* Info.plist */,
+				9C5433F31CEC0278004FBB46 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C55BADE1CEB05AB004978E7 /* MySideslip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C55BAF61CEB05AB004978E7 /* Build configuration list for PBXNativeTarget "MySideslip" */;
+			buildPhases = (
+				9C55BADB1CEB05AB004978E7 /* Sources */,
+				9C55BADC1CEB05AB004978E7 /* Frameworks */,
+				9C55BADD1CEB05AB004978E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySideslip;
+			productName = MySideslip;
+			productReference = 9C55BADF1CEB05AB004978E7 /* MySideslip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C55BAD71CEB05AB004978E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Mee;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liwei;
+				TargetAttributes = {
+					9C55BADE1CEB05AB004978E7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9C55BADA1CEB05AB004978E7 /* Build configuration list for PBXProject "MySideslip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C55BAD61CEB05AB004978E7;
+			productRefGroup = 9C55BAE01CEB05AB004978E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C55BADE1CEB05AB004978E7 /* MySideslip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C55BADD1CEB05AB004978E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C55BAF21CEB05AB004978E7 /* LaunchScreen.storyboard in Resources */,
+				9C55BAEF1CEB05AB004978E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C55BADB1CEB05AB004978E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5433F21CEC002D004FBB46 /* MeeMessageViewController.m in Sources */,
+				9C5433CB1CEBFC21004FBB46 /* AppDelegate.m in Sources */,
+				9C5433C21CEBFB77004FBB46 /* UIImage+GIF.m in Sources */,
+				9C5433DE1CEBFDCB004FBB46 /* ICSDropShadowView.m in Sources */,
+				9C5433E11CEBFE73004FBB46 /* MeeRootTabBarController.m in Sources */,
+				9C5433C31CEBFB77004FBB46 /* UIView+Frame.m in Sources */,
+				9C5433DD1CEBFDCB004FBB46 /* ICSDrawerController.m in Sources */,
+				9C5433CC1CEBFC21004FBB46 /* main.m in Sources */,
+				9C5433E41CEBFEFA004FBB46 /* MeeRootNavigationController.m in Sources */,
+				9C5433EF1CEC0013004FBB46 /* MeeFriendsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9C55BAF01CEB05AB004978E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C55BAF11CEB05AB004978E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C55BAF41CEB05AB004978E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C55BAF51CEB05AB004978E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C55BAF71CEB05AB004978E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MySideslip/PrefixHeader.pch;
+				INFOPLIST_FILE = MySideslip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.infosec.MySideslip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9C55BAF81CEB05AB004978E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = MySideslip/PrefixHeader.pch;
+				INFOPLIST_FILE = MySideslip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.infosec.MySideslip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C55BADA1CEB05AB004978E7 /* Build configuration list for PBXProject "MySideslip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C55BAF41CEB05AB004978E7 /* Debug */,
+				9C55BAF51CEB05AB004978E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C55BAF61CEB05AB004978E7 /* Build configuration list for PBXNativeTarget "MySideslip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C55BAF71CEB05AB004978E7 /* Debug */,
+				9C55BAF81CEB05AB004978E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C55BAD71CEB05AB004978E7 /* Project object */;
+}
